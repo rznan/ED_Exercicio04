@@ -1,6 +1,6 @@
 package view;
 
-import cotroller.ArrayController;
+import controller.ArrayController;
 
 public class Main {
     public static void main(String[] args) {
