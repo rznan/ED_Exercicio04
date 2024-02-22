@@ -1,7 +1,13 @@
 package view;
 
+import cotroller.ArrayController;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        int[] arr = {1, -1, 1, -1, -1};
+
+        var arrCont = new ArrayController();
+
+        System.out.println(arrCont.countNegatives(arr, arr.length));
     }
 }
